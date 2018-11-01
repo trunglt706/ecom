@@ -1,0 +1,202 @@
+.carousel .carousel-indicators{
+    background: rgba(0, 0, 0, 0);
+    z-index: 5;
+}
+.carousel .carousel-indicators li,
+.carousel .carousel-indicators li.active{
+    height: 15px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.img-background{
+    border: none;
+}
+/* ============================================================= */
+/* product */
+/* ============================================================= */
+.row{
+    margin-left: -3px;
+    margin-right: -3px;
+}
+div[class^='col-'] {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.block-header{
+    padding: 0px;
+    margin: 0px;
+}
+.thumbnail {
+    padding: 0;
+    border: 1px solid #ccc;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail > img{
+    border-radius: 3px;
+}
+
+.thumbnail .caption {
+    background-color: #007CBD;
+    padding: 5px 9px 3px 9px;
+    border-radius: 0px 0px 3px 3px;
+    border-top: 1px dashed #fff;
+}
+.thumbnail .caption a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.thumbnail .caption .price{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #bf0000;
+}
+.thumbnail .caption .member {
+    color: #fff;
+    display: block;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+.thumbnail .img-background{
+    position: relative;
+    cursor: pointer;
+    border-radius: 3px 3px 0 0;
+}
+.thumbnail .img-background .left-title{
+    font-family: 'Roboto Condensed', sans-serif;
+    -webkit-transform: rotate(-90deg); /* Safari */
+    -moz-transform: rotate(-90deg); /* Firefox */
+    -ms-transform: rotate(-90deg); /* IE */
+    -o-transform: rotate(-90deg); /* Opera */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Internet Explorer */
+    transform: rotate(-90deg);
+    color: #fff;
+    -ms-transform-origin: left top 0; /* IE 9 */
+    -webkit-transform-origin: left top 0; /* Chrome, Safari, Opera */
+    -moz-transform-origin: left top 0;
+    transform-origin: left top 0;
+    margin-top: 456px;
+    background-color: rgba(0, 124, 189, 1);
+    position: absolute;
+    top: -53px;
+    width: 403px;
+    padding: 10px 20px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 2px solid #fff;
+    border-radius: 3px 3px 0 0;
+}
+.thumbnail .img-background:hover .toolbar{
+    display: block;
+}
+.thumbnail .img-background .toolbar{
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    display: none;
+}
+.thumbnail .img-background a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.thumbnail .img-background .toolbar div {
+    border-radius: 50%;
+    background-color: #505050;
+    color: #e5e5e5;
+    display: initial;
+    font-size: 1.5em;
+    padding: 6px 9px;
+}
+.thumbnail .img-background .new{
+    position: absolute;
+    right: 10px;
+    top: -5px;
+    width: 57px;
+    height: 53px;
+    background-image: url('../images/new.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thumbnail .img-background .best-sell{
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    width: 102px;
+    height: 125px;
+    background-image: url('../images/bestsell.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+#homepage .block-product-featured .block-header ul {
+    max-width: 60%;
+    right: 0;
+}
+
+#homepage .block-product-featured .block-header ul li {
+    max-width: 150px;
+}
+
+#homepage .block-product-featured .block-header ul li div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    border-color: #2196f3;
+}
+
+#cart th {
+    font-weight: 700;
+    text-align: center;
+}
+
+#cart td {
+    vertical-align: middle;
+}
+
+#cart .panel-default {
+    background-color: #f1f1f1;
+}
+
+#cart .panel-login {
+    background-color: #f0f0f0;
+}
+
+#sample .panel-default {
+    background-color: #f1f1f1;
+}
+
+#sample .panel-login {
+    background-color: #f0f0f0;
+}
+
+.title {
+    margin-top: 5px;
+}
+
+.select2-dropdown {
+    top: -55px;
+}
+
+.filters {
+    margin-bottom: 10px;
+}

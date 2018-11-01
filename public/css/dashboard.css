@@ -1,0 +1,133 @@
+body, html{
+    background-color: #eceff1;
+}
+.dash-wrap{
+    padding-bottom: 50px;
+}
+
+.add-grid{
+    background: #eee !important;
+    font-size: 4em;
+    color: #bdbdbd;
+}
+.dash-wrap ul li{
+    border-radius: 3px;
+    position: relative;
+}
+.dash-wrap ul li .close{
+    position: absolute;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 15px;
+    top: -15px;
+    opacity: 1;
+    color: #929292;
+    cursor: pointer;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.32);
+    display: none;
+    z-index: 10;
+}
+.dash-wrap ul li:hover .close{
+    display: block;
+}
+.dropdown-menu li b{
+    padding: 3px 10px;
+}
+
+
+.widget.widget-stats {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.widget {
+    /*border-radius: 3px;
+    margin-bottom: 20px;*/
+    color: rgba(255, 255, 255, 0.75);
+    padding: 15px;
+    overflow: hidden;
+    /*box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.41);*/
+}
+
+.bg-green {
+    background: #00acac !important;
+}
+
+.bg-blue {
+    background: #348fe2 !important;
+}
+
+.bg-purple {
+    background: #727cb6 !important;
+}
+
+.bg-red {
+    background: #DF3D39 !important;
+}
+.bg-blue-grey{
+    background: #607d8b !important;
+}
+.bg-teal {
+    background: #009688 !important;
+}
+.bg-orange {
+    background: #e65100 !important;
+}
+
+.widget-stats .stats-icon {
+    font-size: 42px;
+    height: 56px;
+    width: 56px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 15px;
+    color: #fff;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    opacity: .2;
+    filter: alpha(opacity = 20);
+}
+
+.widget-stats .stats-link a {
+    display: block;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 7px 15px;
+    background: rgba(0, 0, 0, .2);
+    text-align: right;
+    color: #ddd;
+    font-weight: 300;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.widget-stats .stats-link a:hover {
+    background: rgba(0, 0, 0, .4);
+    color: #fff;
+}
+
+.widget-stats .stats-info h4 {
+    font-size: 14px;
+    margin: 5px 0;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.widget-stats .stats-info p {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.table-dashed td{
+    border-bottom: 1px dashed #ccc !important;
+}
+.table-dashed tr:last-child td{
+    border-bottom: none !important;
+}

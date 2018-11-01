@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Apr 22, 2015, 2:12:47 PM
+    Author     : lightx
+*/
+
+body {
+    background-color: #323A45;
+    padding: 30px 0px;
+}
+
+.panel-login {
+    max-width: 330px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.form-signin {
+
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.img-responsive{
+    margin: 5px auto 20px auto;
+    border: 1px solid #ccc;
+    padding: 3px;
+    border-radius: 50%;
+    margin-top: -71px;
+    background-color: #fff;
+    box-shadow: 0px 2px 9px rgba(212, 212, 212, 0.51);
+}
+#logo{
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+footer,
+footer a{
+    color: #AEB1B5;
+}
+footer a:hover,
+footer a:active{
+    color: #D6D6D6;
+    text-decoration: none;
+}

@@ -1,0 +1,120 @@
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    border-top: 0px;
+    border-bottom: 1px solid #ccc;
+}
+.table tbody img{
+    height: 23px;
+}
+.table{
+    margin-bottom: 0px;
+}
+.table.table-info tr td:first-child{
+    background: #f2f2f2;
+}
+.wrap-scroll{
+    overflow: auto;
+}
+.grid-container{
+    background-color: #E4E4E4;
+    border: 1px solid #ccc;
+    min-height: 400px;
+}
+.btn-filter .btn{
+    background-color: rgba(255, 255, 255, 0);
+}
+.btn-filter .dropdown-menu{
+    max-height: 200px;
+    overflow: auto;
+    width: 250px;
+}
+.btn-filter .checkbox{
+    padding: 3px 10px;
+    margin: 0px;
+}
+.btn-filter .data-filter-clear{
+    cursor: pointer;
+}
+.glyphicon.glyphicon-empty{
+    width: 14px;
+}
+.sortdatafield{
+    cursor: pointer;
+}
+
+.fixed-table-header {
+    border-radius: 0;
+}
+.loading-container {
+    position: relative;
+}
+.loading-container .loading{
+    position: absolute;
+    font-size: 70px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 100;
+    color: rgba(51, 51, 51, 0.11);
+    text-align: center;
+    padding-top: 10%;
+    display: none;
+}
+.loading-container .loading.open{
+    display: block;
+}
+.table-header-fixed-top table {
+    background-color: #fff;
+}
+table tr td.chk,
+table tr th.chk{
+    width: 30px;
+}
+.thead-hide{
+    margin-top: -40px;
+}
+table tr td.actions,
+table tr th.actions{
+    text-align: center;
+    width: 50px;
+    padding: 2px;
+}
+.table-header-fixed-top .table-header{
+    border: 1px solid #ccc;
+}
+.table-header-fixed-top table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+.table-header-fixed-top .table-header th{
+    border-bottom-width: 0px;
+}
+.table-header-fixed-top .grid-container .table-content tbody tr td,
+.table-header-fixed-top .grid-container .table-content thead tr th{
+    border: 0px;
+    /*border-right: 1px solid #ccc;*/
+    border-bottom: 1px solid #ccc;
+}
+.table-header-fixed-top .grid-container .table-content tbody tr td:last-child,
+.table-header-fixed-top .grid-container .table-content thead tr th:last-child{
+    border-right: 0px;
+}
+.table-header-fixed-top .grid-container{
+    border-top: 0px;
+}
+
+.table-header-fixed-top .table-content > tbody > tr{
+    cursor: pointer;
+}
+
+.table-header-fixed-top .table-bottom-toolbar{
+    padding: 3px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    text-align: center;
+    border-top: 0px;
+}
+textarea{
+    resize: vertical;
+}

@@ -1,0 +1,236 @@
+#member .member-gold {
+    background-repeat: repeat-x;
+    min-height: 330px;
+}
+
+.carousel .carousel-indicators {
+    background: rgba(0, 0, 0, 0);
+    z-index: 5;
+}
+.carousel .carousel-indicators li,
+.carousel .carousel-indicators li.active {
+    height: 15px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+/* ============================================================= */
+/* product */
+/* ============================================================= */
+.row{
+    margin-left: -3px;
+    margin-right: -3px;
+}
+div[class^='col-'] {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.block-header{
+    padding: 0px;
+    margin: 0px;
+}
+.thumbnail {
+    padding: 0;
+    border: 1px solid #999;
+    margin-bottom: 6px;
+}
+.thumbnail .caption h4{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.thumbnail .caption h4 a{
+    color: #666;
+}
+.thumbnail .caption .price{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #bf0000;
+}
+.thumbnail .img-background{
+    position: relative;
+    cursor: pointer;
+}
+.thumbnail .img-background .left-title{
+    -webkit-transform: rotate(-90deg); /* Safari */
+    -moz-transform: rotate(-90deg); /* Firefox */
+    -ms-transform: rotate(-90deg); /* IE */
+    -o-transform: rotate(-90deg); /* Opera */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Internet Explorer */
+    transform: rotate(-90deg);
+    color: #fff;
+    -ms-transform-origin: left top 0; /* IE 9 */
+    -webkit-transform-origin: left top 0; /* Chrome, Safari, Opera */
+    -moz-transform-origin: left top 0;
+    transform-origin: left top 0;
+    margin-top: 456px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    width: 456px;
+    padding: 13px 20px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.thumbnail .img-background:hover .toolbar{
+    display: block;
+}
+.thumbnail .img-background .toolbar{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    display: none;
+}
+.thumbnail .img-background .toolbar a{
+    border-radius: 50%;
+    background-color: #808080;
+    color: #e5e5e5;
+    font-size: 1.5em;
+    padding: 10px 14px;
+}
+.thumbnail .img-background .new{
+    position: absolute;
+    right: 10px;
+    top: -5px;
+    width: 57px;
+    height: 53px;
+    background-image: url('../images/new.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thumbnail .img-background .best-sell{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 102px;
+    height: 125px;
+    background-image: url('../images/bestsell.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.card-gold {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    border: 0 none rgb(177,106,2);
+    border-bottom: 4px solid rgb(177,106,2);
+    -webkit-border-radius: 7px 7px 9px 9px;
+    border-radius: 7px 7px 9px 9px;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: -webkit-linear-gradient(-90deg, rgb(253,218,134) 0, rgb(225,157,60) 100%), rgb(253, 218, 134);
+    background: -moz-linear-gradient(180deg, rgb(253,218,134) 0, rgb(225,157,60) 100%), rgb(253, 218, 134);
+    background: linear-gradient(180deg, rgb(253,218,134) 0, rgb(225,157,60) 100%), rgb(253, 218, 134);
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    -webkit-box-shadow: 0 -1px 1px 0 rgba(255,255,255,0.701961) inset, 0 1px 1px 0 rgb(177,106,2) ;
+    box-shadow: 0 -1px 1px 0 rgba(255,255,255,0.701961) inset, 0 1px 1px 0 rgb(177,106,2) ;
+    width: 380px;
+    height: 260px;
+    color: #b16b01;
+}
+
+.card-gold img {
+    mix-blend-mode: multiply;
+    padding-bottom: 10px;
+}
+
+.card-gold .company-name {
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+}
+
+.card-gold hr {
+    border-top: #b16b01 solid 1px;
+    border-bottom: rgba(255,255,255,0.5) solid 1px;
+    margin: 5px 0;
+}
+
+#coverflow {
+    padding-top: 75px;
+}
+
+.member-slogan {
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+    position: absolute;
+    top: 250px;
+    z-index: 1;
+}
+
+.effect2:before, .effect2:after
+{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+.effect2:after
+{
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+
+.member-slogan:before {
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.member-slogan .slogan {
+    background-color: rgba(0,0,0,.7);
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.member-slogan .vpa {
+    background-color: #fff;;
+    color: #007cbd;
+    padding: 10px 15px;
+}

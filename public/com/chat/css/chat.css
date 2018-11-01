@@ -1,0 +1,137 @@
+#messages-main .ms-body{
+    overflow: visible;;
+}
+.btn-toggle-dialog{
+    position: absolute;
+    display: block;
+    margin-left: -60px;
+    width: 60px;
+    height: 45px;
+    background-color: #007CBD;
+    padding: 5px 13px;
+    border-radius: 5px 0px 0px 5px;
+    display: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+}
+.btn-toggle-dialog span{
+    color: #fff;
+    font-size: 3em;
+}
+.chat-dialog{
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    height: 370px;
+    right: 15px;
+    width: 300px;
+    /*overflow: hidden;*/
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: #eceff1;
+    -webkit-transition: transform 0.5s; /* Safari */
+    transition: transform 0.5s;
+}
+@media (min-width: 992px) {
+    .chat-dialog{
+        right: 70px;
+    }
+}
+.chat-dialog.close-dialog{
+    -webkit-transform: translate3d(371px,0,0);
+    transform: translate3d(371px,0,0);
+}
+.chat-dialog.close-dialog .btn-toggle-dialog{
+    display: block;
+}
+/*.chat-dialog.close-dialog:hover{
+    -webkit-transform: translate3d(0,332px,0);
+    transform: translate3d(0,332px,0);
+}*/
+.chat-dialog .ms-menu{
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.42);
+    border-right: 1px solid #B1B1B1 !important;
+}
+.chat-dialog .lv-body{
+    background-color: #eceff1;
+    overflow: auto;
+    height: 272px;
+}
+.chat-dialog .lv-header-alt{
+    background-color: #37474f;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.34);
+    cursor: pointer;
+}
+.chat-dialog .tmn-counts{
+    position: absolute;
+    font-style: normal;
+    background: #f44336;
+    padding: 1px 5px;
+    border-radius: 2px;
+    right: 7px;
+    top: -3px;
+    font-size: 10px;
+    line-height: 15px;
+    color: #fff;
+}
+.chat-dialog .lv-header-alt #ms-menu-trigger .line-wrap .line{
+    background-color: #fff;
+}
+.chat-dialog .lvh-label,
+.chat-dialog .lv-header-alt .actions>li>a>i{
+    color: #fff !important;
+}
+.chat-dialog .ms-reply{
+    box-shadow: none;
+    height: 60px;
+    border-top: 1px solid #ccc;
+}
+.chat-dialog .lv-avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 5px;
+    line-height: 29px;
+}
+.chat-dialog .lv-message .lv-item:not(.right) .ms-item{
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+}
+.chat-dialog .lv-message .lv-item.right .ms-item{
+    background-color: #cfd8dc;
+    padding: 10px;
+}
+
+.chat-dialog .lv-body .typing .label{
+    padding: 5px;
+    background-color: cfd8dc;
+}
+.chat-dialog .ms-menu{
+    padding: 0 !important;
+    overflow: auto;
+}
+
+.chat-dialog #messages-main .ms-user>div {
+    overflow: hidden;
+    padding: 0px 0px 0px 10px;
+    font-size: 12px;
+}
+
+.chat-dialog .ms-login{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    height: 100%;
+    z-index: 100;
+}
+
+.emoji {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    margin-bottom: -0.25em;
+}
+
+.chat-dialog .lv-toolbar{
+    background-color: #f5f5f5;
+}

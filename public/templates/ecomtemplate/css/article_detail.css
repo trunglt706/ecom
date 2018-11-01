@@ -1,0 +1,153 @@
+
+#article-detail {
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+p, strong, a {
+    padding: 3px 0;
+}
+
+img{
+    padding: 10px 15px 10px 0;
+}
+
+/*
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border: 1px groove #999999;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+legend {
+    display: block;
+    -webkit-padding-start: 2px;
+    -webkit-padding-end: 2px;
+    border: none;
+    width: inherit;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+.img-background {
+    border: none;
+}
+.thumbnail {
+    padding: 0;
+    border: 1px solid #999;
+}
+.product-detail .new {
+    position: absolute;
+    right: 10px;
+    top: -5px;
+    width: 57px;
+    height: 53px;
+    background-image: url('../images/new.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-detail .best-sell {
+    position: absolute;
+    right: -18px;
+    top: 10px;
+    width: 102px;
+    height: 125px;
+    background-image: url('../images/bestsell.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.price {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1em;
+}
+.product-detail .price-lg {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1em;
+}
+.text-decoration {
+    text-decoration: line-through;
+}
+
+#product-feature {
+    background-color: #e5e5e5;
+    padding: 20px 0;
+}
+.table.table-transparent{
+    background-color: transparent;
+}
+.table.table-transparent td {
+    border-top: 0px;
+}
+
+.thumbnail .caption h4 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.thumbnail .caption h4 a {
+    color: #666;
+}
+.thumbnail .caption .price {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #bf0000;
+}
+.thumbnail .img-background {
+    position: relative;
+    cursor: pointer;
+}
+.thumbnail .img-background .left-title {
+    -webkit-transform: rotate(-90deg);  Safari 
+    -moz-transform: rotate(-90deg);  Firefox 
+    -ms-transform: rotate(-90deg);  IE 
+    -o-transform: rotate(-90deg);  Opera 
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);  Internet Explorer 
+    transform: rotate(-90deg);
+    color: #fff;
+    -ms-transform-origin: left top 0;  IE 9 
+    -webkit-transform-origin: left top 0;  Chrome, Safari, Opera 
+    -moz-transform-origin: left top 0;
+    transform-origin: left top 0;
+    margin-top: 456px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    width: 456px;
+    padding: 13px 20px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.thumbnail .img-background:hover .toolbar {
+    display: block;
+}
+.thumbnail .img-background .toolbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    display: none;
+}
+.thumbnail .img-background .toolbar a {
+    border-radius: 50%;
+    background-color: #808080;
+    color: #e5e5e5;
+    font-size: 1.5em;
+    padding: 10px 14px;
+}*/

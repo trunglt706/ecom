@@ -1,0 +1,104 @@
+{
+    "type"		: "Plugin",
+    "name"		: "Member",
+    "author"		: "InnoSoft",
+    "creation_date"	: "April 2016",
+    "copyright"		: "(C) 2016",
+    "license"		: "GNU General Public License",
+    "author_email"	: "admin@innosoft.com.vn",
+    "author_url"	: "www.innosoft.com.vn",
+    "version"		: "2.5.0",
+    "description"	: "Member component",
+
+    "route" :[
+        {
+            "name"	: "member",
+            "alias"	: "member",
+            "ctrl"	: "MemberController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "member_user",
+            "alias"	: "member-user",
+            "ctrl"	: "MemberUserController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "member_certificate",
+            "alias"	: "member-certificate",
+            "ctrl"	: "MemberCertificateController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "member_product",
+            "alias"	: "member-product",
+            "ctrl"	: "MemberProductController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "member_category",
+            "alias"	: "member-category",
+            "ctrl"	: "MemberCategoryController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "member_media_category",
+            "alias"	: "member-media-category",
+            "ctrl"	: "MemberMediaCategoryController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "member_certificate_type",
+            "alias"	: "member-certificate-type",
+            "ctrl"	: "MemberCertificateTypeController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "member_level_approve",
+            "alias"	: "member-level-approve",
+            "ctrl"	: "MemberLevelApproveController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        }
+    ],
+    "module": [
+        {
+            "name"          : "members",
+            "description"   : "members",
+            "attribs"       : {
+                "level"                 : "1",
+                "media_category_id"     : "1",
+                "limit"                 : 0
+            },
+            "name"          : "member_option",
+            "description"   : "Show member option",
+            "attribs"       : {
+                "level"                 : "1",
+                "media_category_id"     : "1",
+                "limit"                 : 0
+            },
+            "name"          : "member_gold",
+            "description"   : "Show member gold",
+            "attribs"       : {
+                "level"                 : "2",
+                "media_category_id"     : "1",
+                "limit"                 : 0
+            }
+        }
+    ]
+}

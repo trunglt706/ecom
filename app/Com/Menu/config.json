@@ -1,0 +1,42 @@
+{
+	"type"			: "Component",
+	"name"			: "Menu",
+	"author"		: "InnoSoft",
+	"creation_date"	: "December 2015",
+	"copyright"		: "(C) 2015",
+	"license"		: "GNU General Public License",
+	"author_email"	: "admin@innosoft.com.vn",
+	"author_url"	: "www.innosoft.com.vn",
+	"version"		: "2.4.1",
+	"description"	: "Menu component",
+
+	"route"	:[
+		{
+			"name"		: "menu",
+			"alias"		: "menu",
+			"ctrl"		: "MenuController",
+			"location"	: "admin",
+			"show_menu"	: true,
+			"perm"		: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+		}
+	],
+	"module"	:[
+		{
+			"name"		: "menu",
+			"description": "Show block menu",
+			"attribs"	: {
+				"parent_menu": "1",
+				"depth"      : "0"
+			}
+		},
+		{
+			"name"		: "offcanvas",
+			"description": "Show block offcanvas",
+			"attribs"	: {
+				"parent_menu": "1",
+				"depth"      : "0"
+			}
+		}
+	],
+	"lang"	: ["vi"]
+}

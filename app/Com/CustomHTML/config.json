@@ -1,0 +1,21 @@
+{
+	"type"			: "Component",
+	"name"			: "CustomHTML",
+	"author"		: "InnoSoft",
+	"creation_date"	: "February 2016",
+	"copyright"		: "(C) 2016",
+	"license"		: "GNU General Public License",
+	"author_email"	: "admin@innosoft.com.vn",
+	"author_url"	: "www.innosoft.com.vn",
+	"version"		: "2.0.0",
+	"description"	: "CustomHTML component",
+
+	"module": [
+		{
+			"name" 			: "customhtml",
+			"description" 	: "Custom HTML",
+			"attribs"		: {}
+		}
+	],
+	"lang"	: ["vi"]
+}

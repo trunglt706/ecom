@@ -1,0 +1,12 @@
+{
+	"type"			: "Component",
+	"name"			: "CKEditor",
+	"author"		: "CKEditor",
+	"creation_date"	: "December 2015",
+	"copyright"		: "(C) 2015",
+	"license"		: "GNU General Public License",
+	"author_email"	: "",
+	"author_url"	: "http://ckeditor.com/",
+	"version"		: "2.0.0",
+	"description"	: "CKEditor"
+}

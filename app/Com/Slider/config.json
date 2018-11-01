@@ -1,0 +1,38 @@
+{
+	"type"			: "Component",
+	"name"			: "Slider",
+	"author"		: "InnoSoft",
+	"creation_date"	: "July 2016",
+	"copyright"		: "(C) 2016",
+	"license"		: "GNU General Public License",
+	"author_email"	: "admin@innosoft.com.vn",
+	"author_url"	: "www.innosoft.com.vn",
+	"version"		: "2.0.0",
+	"description"	: "Bootstrap carousel slider",
+
+	"route"	:[
+		{
+			"name"		: "slider",
+			"alias"		: "slider",
+			"ctrl"		: "SliderController",
+			"location"	: "admin",
+			"show_menu"	: true,
+			"perm"		: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+		}
+	],
+	"module"	:[
+		{
+			"name"		: "slider",
+			"description": "Create slider block",
+			"attribs"	: {
+				"slider_id": "1",
+				"items": "1",
+				"show_control": "1",
+				"show_indicator": "1",
+				"show_title": "1",
+				"advance_class": ""
+			}
+		}
+	],
+	"lang"	: ["vi"]
+}

@@ -1,0 +1,56 @@
+{
+    "type"		: "Plugin",
+    "name"		: "Chat",
+    "author"		: "InnoSoft",
+    "creation_date"	: "February 2016",
+    "copyright"		: "(C) 2016",
+    "license"		: "GNU General Public License",
+    "author_email"	: "admin@innosoft.com.vn",
+    "author_url"	: "www.innosoft.com.vn",
+    "version"		: "2.3.13.21",
+    "description"	: "Chat plugin",
+
+    "route" :[
+        {
+            "name"	: "chat_setting",
+            "alias"	: "chat-setting",
+            "ctrl"	: "ChatSettingController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "chat_group",
+            "alias"	: "chat-group",
+            "ctrl"	: "ChatGroupController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "chat_customer",
+            "alias"	: "chat-customer",
+            "ctrl"	: "ChatCustomerController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+		{
+            "name"	: "chat_list",
+            "alias"	: "chat-list",
+            "ctrl"	: "ChatListController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+		{
+            "name"	: "chat",
+            "alias"	: "chat",
+            "ctrl"	: "SiteChatController",
+            "location"	: "site",
+            "show_menu"	: false,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        }
+    ],
+    "lang" : ["vi", "en"]
+}

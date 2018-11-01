@@ -1,0 +1,40 @@
+{
+    "type"		: "Plugin",
+    "name"		: "Content",
+    "author"		: "InnoSoft",
+    "creation_date"	: "February 2016",
+    "copyright"		: "(C) 2016",
+    "license"		: "GNU General Public License",
+    "author_email"	: "admin@innosoft.com.vn",
+    "author_url"	: "www.innosoft.com.vn",
+    "version"		: "2.3.13.21",
+    "description"	: "Content component",
+
+    "route" :[
+        {
+            "name"	: "content",
+            "alias"	: "contents",
+            "ctrl"	: "ContentController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "content_category",
+            "alias"	: "content-category",
+            "ctrl"	: "ContentCategoryController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        },
+        {
+            "name"	: "content_subcribe",
+            "alias"	: "content-subcribe",
+            "ctrl"	: "ContentSubcribeController",
+            "location"	: "admin",
+            "show_menu"	: true,
+            "perm"	: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN"]
+        }
+    ],
+    "lang" : ["vi"]
+}

@@ -1,0 +1,1 @@
+product detail on site

@@ -1,0 +1,44 @@
+{
+	"type"			: "Component",
+	"name"			: "Contact",
+	"author"		: "InnoSoft",
+	"creation_date"	: "December 2015",
+	"copyright"		: "(C) 2015",
+	"license"		: "GNU General Public License",
+	"author_email"	: "admin@innosoft.com.vn",
+	"author_url"	: "www.innosoft.com.vn",
+	"version"		: "2.0.0",
+	"description"	: "Contact component",
+
+	"route"	:[
+		{
+			"name"		: "contact",
+			"alias"		: "contact",
+			"ctrl"		: "ContactController",
+			"location"	: "admin",
+			"show_menu"	: true,
+			"perm"		: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN", "CAN_SEND"]
+		},
+		{
+			"name"		: "contact",
+			"alias"		: "site-contact",
+			"ctrl"		: "SiteContactController",
+			"location"	: "site",
+			"perm"		: ["CAN_ACCESS", "CAN_INSERT", "CAN_UPDATE", "CAN_DELETE", "IS_ADMIN", "CAN_SEND"]
+		}
+	],
+	"module": [
+		{
+			"name" 			: "contact",
+			"description" 	: "contact form",
+			"attribs"		: {
+				"email": "support@gmail.com",
+				"password": "support@123",
+				"host": "smtp.gmail.com",
+				"port": 587,
+				"driver": "smtp",
+				"encryption" : "tls"
+			}
+		}
+	]
+}

@@ -1,0 +1,42 @@
+#register .title h1 {
+    color: #555;
+    font-family: 'Open Sans', arial;
+    font-size: 38px;
+    margin-bottom: 50px;
+    margin-top: 27px;
+}
+
+#register .info-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#register .info-title {
+
+}
+
+#register .info-title h3 {
+    color: #737373;
+    font-family: 'Open Sans', arial;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#frmRegister hr {
+    border-top: 1px solid #D6D6D6;
+}
+
+#frmRegister .form-title h2 {
+    color: #555;
+    font-family: 'Open Sans', arial;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 27px;
+}
+
+#register .panel-default {
+    background-color: #f1f1f1;
+}

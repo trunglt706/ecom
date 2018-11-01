@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS `member_categories`;
+DROP TABLE IF EXISTS `member_certificate_approves`;
+DROP TABLE IF EXISTS `member_certificate_types`;
+DROP TABLE IF EXISTS `member_certificates`;
+DROP TABLE IF EXISTS `member_level_approves`;
+DROP TABLE IF EXISTS `member_levels`;
+DROP TABLE IF EXISTS `member_media_categories`;
+DROP TABLE IF EXISTS `member_medias`;
+DROP TABLE IF EXISTS `member_product_approves`;
+DROP TABLE IF EXISTS `member_product_requests`;
+DROP TABLE IF EXISTS `member_products`;
+DROP TABLE IF EXISTS `member_users`;
+DROP TABLE IF EXISTS `members`;
